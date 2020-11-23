@@ -1,0 +1,101 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.navbar{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.navbar .nav-link{
+	padding-left: 16px !important;
+	padding-right: 16px !important;
+	text-transform: uppercase;
+}
+.navbar-toggler{
+	outline: none!important;
+	margin-left: 220px;
+}
+.bg-white{
+	background: #FFF;
+}
+
+/*-------------slider-----*/
+.carousel-item{
+	height: 600px;
+}
+.carousel-image-1{
+	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url('images/slide1.jpg');
+	background-position: 40% 90%;
+	background: cover;
+}
+.carousel-image-2{
+	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url('images/slide2.jpg');
+	background-position: 50% 10%;
+	background: cover;
+}
+.carousel-image-3{
+	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url('images/slide3.jpg');
+	background-position: 40% 70%;
+	background: cover;
+}
+.btn-color{
+	background: rgba(255, 149, 0, .7);
+	color: #000;
+}
+.btn-color:hover{
+	background: rgba(255, 149, 0, 1);
+	color: #FFF;
+}
+/*-------------services--------------*/
+.service-icon{
+	display: inline-block;
+	margin-bottom: 16px;
+	padding: 8px 16px;
+	color: #000;
+}
+.certificate-icon{
+	display: inline-block;
+	margin-bottom: 16px;
+	padding: 8px 16px;
+	color: #000;
+}
+.warranty-icon{
+	display: inline-block;
+	margin-bottom: 16px;
+	padding: 8px 16px;
+	color: #000;
+}
+
+/*---------------products---------*/
+.single-item{
+	display: inline-block;
+	vertical-align: middle;
+	box-shadow: 0 0 3px #000;
+}
+.single-item:hover{
+	background: rgb(255, 245, 222);
+	box-shadow: 0 0 7px #000;
+}
+/*--------------about.-.-------*/
+.about{
+	margin-top: 25px;
+}
+
+.text-color{
+	color: #000;
+}
+.about-img{
+	margin-top: 35px;
+}
+
+/*---------footer---------*/
+.footer{
+	background: #000;
+	color: #FFF;
+	padding-top: 10px;
+}
+.fab{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	color: #FFF;
+}
+
